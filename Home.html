@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Styling for the calculator */
+        .calculator {
+            display: grid;
+            /* Other necessary CSS styles */
+        }
+        .calculator__keys {
+            display: grid;
+            /* Other necessary CSS styles */
+        }
+        /* Example operator keys */
+        .key--operator {
+            /* Styling for operator keys */
+        }
+        /* Example numeric keys */
+        .key--numeric {
+            /* Styling for numeric keys */
+        }
+        /* Example equal key */
+        .key--equal {
+            /* Styling for equal key */
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <!-- Display screen -->
+        <div class="calculator__display">0</div>
+        <!-- Numeric and operator keys -->
+        <div class="calculator__keys">
+            <button class="key--operator" data-action="add">+</button>
+            <button class="key--operator" data-action="subtract">-</button>
+            <button class="key--operator" data-action="multiply">×</button>
+            <button class="key--operator" data-action="divide">÷</button>
+            <!-- Numeric keys -->
+            <button class="key--numeric">7</button>
+            <button class="key--numeric">8</button>
+            <button class="key--numeric">9</button>
+            <!-- Other numeric keys (1-6) -->
+            <!-- Decimal and clear keys -->
+            <button data-action="decimal">.</button>
+            <button data-action="clear">AC</button>
+            <!-- Equal key -->
+            <button class="key--equal" data-action="calculate">=</button>
+        </div>
+    </div>
+    <!-- JavaScript code for calculator functionality -->
+    <script>
+        // Your JavaScript code goes here
+        // Listen for key presses and perform calculations
+        // Update the display screen accordingly
+    </script>
+</body>
+</html>
