@@ -13,6 +13,7 @@ jobs:
       - name: testing again new changes
         run: echo "from VS code"
   second-job:
+    needs: first-job
     runs-on: ubuntu-latest
     steps:
       - name: print outout
