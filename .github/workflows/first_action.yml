@@ -19,7 +19,7 @@ jobs:
       - name: print outout
         run: echo "hello world"
   second2-job:
-    needs: first-job
+    needs: [first-job,second-job] 
     runs-on: ubuntu-latest
     steps:
       - name: print outout
