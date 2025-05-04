@@ -4,11 +4,17 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print outout
+      - name: get data
         run: echo "hello world"
       - name: print bye
-        run: echo "byee"
+        run: ps -eaf 
       - name: testing new changes
         run: echo "changing from VS code"
       - name: testing again new changes
         run: echo "from VS code"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print outout
+        run: echo "hello world"
+
