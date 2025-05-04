@@ -6,9 +6,4 @@ jobs:
     steps:
       - name: print outout
         run: echo "hello world"
-      - name: print bye
-        run: echo "byee"
-      - name: testing new changes
-        run: echo "changing from VS code"
-      - name: testing again new changes
-        run: echo "from VS code"
+
