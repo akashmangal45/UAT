@@ -2,7 +2,7 @@ name: first_workflow
 on: workflow_dispatch
 jobs:
   new-job:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: print
         run: echo "hello world"
